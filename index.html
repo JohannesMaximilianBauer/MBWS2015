@@ -1,98 +1,25 @@
     <!DOCTYPE html>
     <html>
-    <head>
-    <title>Home - Max Bauer</title>
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
 
-   <!-- Latest compiled and minified CSS -->
-
-<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.5/css/bootstrap.min.css" integrity="sha512-dTfge/zgoMYpP7QbHy4gWMEGsbsdZeCXz7irItjcC3sPUFtf0kuFbDz/ixG7ArTxmDjLXDmezHubeNikyKGVyQ==" crossorigin="anonymous">
-
-<!-- Optional theme -->
-<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.5/css/bootstrap-theme.min.css" integrity="sha384-aUGj/X2zp5rLCbBxumKTCw2Z50WgIr1vs/PFN4praOTvYXWlVyh2UtNUU0KAUhAX" crossorigin="anonymous">
-
-<!-- Latest compiled and minified JavaScript -->
-
-    <link href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/css/bootstrap.min.css" rel="stylesheet" integrity="sha256-7s5uDGW3AHqw6xtJmNNtr+OBRJUlgkNJEo78P4b0yRw= sha512-nNo+yCHEyn0smMxSswnf/OnX6/KwJuZTlNZBjauKhTK0c+zT+q5JOCx0UFhXQ6rJR9jg6Es8gPuD2uZcYDLqSw==" crossorigin="anonymous">
-
-    <!-- Optional theme -->
-<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/css/bootstrap-theme.min.css" integrity="sha384-aUGj/X2zp5rLCbBxumKTCw2Z50WgIr1vs/PFN4praOTvYXWlVyh2UtNUU0KAUhAX" crossorigin="anonymous">
-
-    </head>
     <body>
-    	<nav class="navbar navbar-fixed-top navbar-inverse" role="navigation">
-     		<div class="container">
-        	<div class="navbar-header">
-          		<button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#navbar" aria-expanded="false" aria-controls="navbar">
-            			<span class="sr-only">Toggle navigation</span>
-            			<span class="icon-bar"></span>
-            			<span class="icon-bar"></span>
-            			<span class="icon-bar"></span>
-          		</button>
-          		<a class="navbar-brand" href="#">IBS-Project</a>
-        	</div>
-
-        	<div id="navbar" class="collapse navbar-collapse">
-          		<ul class="nav navbar-nav">
-            			<li class="active"><a href="index.html">Home</a></li>
-            			<li><a href="html/video.html">Partner Feature</a></li>
-            			<li><a href="html/impressum.html">Impressum</a></li>
-				<li><a href="html/wikisuche.html">Wikipedia Suchformular</a></li>
-				<li><a href="html/ajax.html">Ajax</a></li>
-          		</ul>
-        	</div><!-- /.nav-collapse -->
-      		</div><!-- /.container -->
-    	</nav><!-- /.navbar -->
-
-
-    	<div class="container">
-      		<div class="row row-offcanvas row-offcanvas-right">
-        		<div class="col-xs-12 col-sm-9">
-          			<p class="pull-right visible-xs">
-            				<button type="button" class="btn btn-primary btn-xs" data-toggle="offcanvas">Toggle nav</button>
-          			</p>
-          		<div class="jumbotron">
-            			<h1>Ueber mein Studium</h1>
-          		Ich habe im Sommersemester 2014 angefangen zu studieren und belege in diesem Semester<br> 
-              			     Algorithmen und Datenstrukturen<br>
-              			     Recht fuer InformatikerInnen<br>
-              			     Internetbasierte Systeme<br>
-              			     Datenbanksysteme<br>
-              			     Programmieren interaktiver Systeme<br>
-              			     Stochastik<br>
-          		</div>
-          		<div class="row">
-            			<div class="col-xs-6 col-lg-4">
-              				<h2>Links</h2>
-              				<p> github:<a href="https://github.com/JohannesMaximilianBauer/MBWS2015">GithubLink</a> </p>
-              				<p> Codecadmy:<a href="http://www.codecademy.com/JMBauer">Codecademy</a></p>
-              				<p> github:<a href="https://github.com/jslp/ibs_website/pull/1">Github Pull Request</a> </p>
-              				
-            			</div><!--/.col-xs-6.col-lg-4-->
-            	
-          	</div><!--/row-->
-        </div><!--/.col-xs-12.col-sm-9-->
-
-        <div class="col-xs-6 col-sm-3 sidebar-offcanvas" id="sidebar" role="navigation">
-          <div class="list-group">
-            <a href="index.html" class="list-group-item active">Home</a>
-            <a href="html/impressum.html" class="list-group-item">Impressum</a>
-            <a href="https://github.com/JohannesMaximilianBauer/MBWS2015" class="list-group-item">GithubLink</a>
-            <a href="http://www.codecademy.com/JMBauer" class="list-group-item">Codecademy</a>
-            <a href="https://github.com/jslp/ibs_website/pull/1" class="list-group-item">Github Pull Request</a>
-           
-          </div>
-        </div><!--/.sidebar-offcanvas-->
-      </div><!--/row-->
-
-      <footer>
-        <p>&copy; Max Bauer</p>
-      </footer>
-
-    </div><!--/.container-->
+    
+    <div id="id01"></div>>
+    <script>
+    
+    function myFunction(arr){
+    	var out = "";
+    	var i;
+    	for(i = 0; i<arr.length;i++){
+    		out += '<a href="' + arr[i].url + '">' + arr[i].display + '</a><br>';
+    	}
+    	document.getElementById("id01").innerHTML = out;
+    	
+    }
+    function myFunction()
     
     
-   <!--  --> <script src="http://code.jquery.com/jquery.js"></script>
-    <!--  --><script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/js/bootstrap.min.js"></script>
+    </script>
+    <script src="myTutorial.js"></script>
+    	
     </body>
     </html>
